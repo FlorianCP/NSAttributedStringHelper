@@ -18,3 +18,6 @@ Another example is the handling of UIFontTextStyles, e.g. UIFontTextStyleBody. Y
 
 ## Contribution
 The current collection of methods is pretty small and contribution is very welcome. Feel free to add your own methods and send pull requests.
+
+## Credits
+NSAttributedStringHelper was created by Codepool GmbH (http://www.codepool.at), a software company based in Linz, Austria. Idea and initial commits where done by Florian Rath.
