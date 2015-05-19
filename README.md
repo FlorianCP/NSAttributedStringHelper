@@ -20,4 +20,4 @@ Another example is the handling of UIFontTextStyles, e.g. UIFontTextStyleBody. Y
 The current collection of methods is pretty small and contribution is very welcome. Feel free to add your own methods and send pull requests.
 
 ## Credits
-NSAttributedStringHelper was created by Codepool GmbH (http://www.codepool.at), a software company based in Linz, Austria. Idea and initial commits by Florian Rath.
+CPStampAnimation was created by [Codepool GmbH](http://www.codepool.at/?utm_source=github&utm_medium=Web&utm_campaign=Open-Source), a software company based in Linz, Austria. Idea and initial commits by Florian Rath.
