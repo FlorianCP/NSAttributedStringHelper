@@ -3,15 +3,15 @@ A collection of helper methods to make NSAttributedStrings a little bit easier a
 
 ## Examples
 NSString objects have the very convenient method
-```objective-c
+```objc
 [stringVar stringByAppendingString:@""]
 ```
 However, if you want to append an attributed string to another, you have to create a NSMutableAttributedString. The given convenience methods add this possibility to NSAttributedStrings:
-```objective-c
+```objc
 [attributedStringVar ash_attributedStringByAppendingAttributedString:anotherAttributedStringVar]
 ```
 Another example is the handling of UIFontTextStyles, e.g. UIFontTextStyleBody. You can use those styles to retrieve a UIFont, but it is decoupled from NSAttributedStrings. Therefore, NSAttributedStringHelper contains methods like
-```objective-c
+```objc
 + (NSDictionary *)ash_attributesForTextStyle:(ASH_UIFontTextStyle)textStyle;
 + (NSAttributedString *)ash_attributedStringWithString:(NSString *)string textStyle:(ASH_UIFontTextStyle)style;
 ```
@@ -20,4 +20,4 @@ Another example is the handling of UIFontTextStyles, e.g. UIFontTextStyleBody. Y
 The current collection of methods is pretty small and contribution is very welcome. Feel free to add your own methods and send pull requests.
 
 ## Credits
-NSAttributedStringHelper was created by Codepool GmbH (http://www.codepool.at), a software company based in Linz, Austria. Idea and initial commits where done by Florian Rath.
+NSAttributedStringHelper was created by Codepool GmbH (http://www.codepool.at), a software company based in Linz, Austria. Idea and initial commits by Florian Rath.
